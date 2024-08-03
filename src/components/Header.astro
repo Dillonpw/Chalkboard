@@ -1,0 +1,32 @@
+---
+import Nav from "./Nav.astro";
+---
+
+<header>
+  <h1>LOGO</h1>
+  <Nav />
+  <a href="/">CTA</a>
+</header>
+
+<style>
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 0 0.5rem 1rem;
+    border-bottom: 2px solid rgba(240, 248, 255, 0.903); ;
+  }
+
+  h1 {
+    margin: 0;
+  }
+  a {
+    font-family: Indie Flower, cursive;
+    text-decoration: none;
+    padding: .5rem 2rem;
+    color: rgba(240, 248, 255, 0.903);
+    font-size: 20px;
+    border: 2px solid rgba(240, 248, 255, 0.903);
+    border-radius: 10px;
+  }
+</style>
